@@ -65,6 +65,6 @@ def three():
             writer = csv.writer(file)
             writer.writerows([data])
 
-    print('*' * 20 + '  Выгрузка успешно завершена в файл data_out.txt  ' + '*' * 20)
+    print('*' * 20 + '  Выгрузка успешно завершена в файл data_out.csv  ' + '*' * 20)
     input('Чтобы продолжить, нажмите Enter')
     main()
