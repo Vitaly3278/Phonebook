@@ -1,4 +1,4 @@
-
+# Запись в файл базы
 def add_data(data):
     last_name, first_name, phone, description = data
     log = f'{last_name} {first_name} {phone} {description}\n'
