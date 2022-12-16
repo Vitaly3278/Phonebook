@@ -21,5 +21,8 @@ if run == 3:
     for line in data:
         print(line.strip())
 
+    log = f'{last_name} {first_name} {phone} {description}\n'
+    with open('phonebook.txt', 'a', encoding='UTF-8') as file:
+        file.write(log)
     #last_name, first_name, phone, description = data
 
